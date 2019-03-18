@@ -1,4 +1,5 @@
 # FTPSyncFileManager
+此为几米圈后视镜等设备FTP视频、图片同步模块组件，组件已集成到几米圈SDK引擎中，无需额外下载。
 ## 导入RN组件模块
 ```
 import {
