@@ -25,7 +25,6 @@ export default class FTPSyscFile extends Component {
     componentWillMount() {
         this.state.ftpSyncMrgListener.addListener(FTPSyncFileManager.kRNFTPSyncFileManager, (reminder) => {
              this.onHandleFTPCallbackData(reminder);  //reminder为组件回调的数据
-             let obj = JSON.parse(manager);
         });
     }
     
